@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'test5' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.3
+4 verbose config Skipping project config: /usr/app/.npmrc. (matches userconfig)
+5 verbose run-script [ 'pretest5', 'test5', 'posttest5' ]
+6 info lifecycle todo@1.0.0~pretest5: todo@1.0.0
+7 info lifecycle todo@1.0.0~test5: todo@1.0.0
+8 verbose lifecycle todo@1.0.0~test5: unsafe-perm in lifecycle true
+9 verbose lifecycle todo@1.0.0~test5: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/app/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle todo@1.0.0~test5: CWD: /usr/app
+11 silly lifecycle todo@1.0.0~test5: Args: [ '-c', 'mocha task5.spec.js' ]
+12 silly lifecycle todo@1.0.0~test5: Returned: code: 1  signal: null
+13 info lifecycle todo@1.0.0~test5: Failed to exec test5 script
+14 verbose stack Error: todo@1.0.0 test5: `mocha task5.spec.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+14 verbose stack     at EventEmitter.emit (events.js:189:13)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:189:13)
+14 verbose stack     at maybeClose (internal/child_process.js:970:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+15 verbose pkgid todo@1.0.0
+16 verbose cwd /usr/app
+17 verbose Linux 4.15.0-1041-aws
+18 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "test5"
+19 verbose node v10.15.3
+20 verbose npm  v6.9.0
+21 error code ELIFECYCLE
+22 error errno 1
+23 error todo@1.0.0 test5: `mocha task5.spec.js`
+23 error Exit status 1
+24 error Failed at the todo@1.0.0 test5 script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

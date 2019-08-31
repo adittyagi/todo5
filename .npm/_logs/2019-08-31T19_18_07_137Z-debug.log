@@ -1,0 +1,16 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'test5' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.3
+4 verbose config Skipping project config: /usr/app/.npmrc. (matches userconfig)
+5 verbose run-script [ 'pretest5', 'test5', 'posttest5' ]
+6 info lifecycle todo@1.0.0~pretest5: todo@1.0.0
+7 info lifecycle todo@1.0.0~test5: todo@1.0.0
+8 verbose lifecycle todo@1.0.0~test5: unsafe-perm in lifecycle true
+9 verbose lifecycle todo@1.0.0~test5: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/app/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+10 verbose lifecycle todo@1.0.0~test5: CWD: /usr/app
+11 silly lifecycle todo@1.0.0~test5: Args: [ '-c', 'mocha task5.spec.js' ]
+12 timing npm Completed in 131923ms
+13 error cb() never called!
+14 error This is an error with npm itself. Please report this error at:
+15 error <https://npm.community>
