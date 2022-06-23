@@ -32,7 +32,7 @@
         "sequelize": "^5.9.0",
         "sqlite3": "^4.0.9",
         "supertest": "^4.0.2",
-        "jsdom": "^15.1.1",
+        "jsdom": "^16.5.0",
         "wget-improved": "^3.0.2"
     }
 }
